@@ -1,18 +1,29 @@
-## Getting Started
+# Exercise 2 - Factory Method Pattern
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Objective
 
-## Folder Structure
+Implement the Factory Method Design Pattern to create different types of documents.
 
-The workspace contains two folders by default, where:
+## Design Pattern
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Factory Method Pattern
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Project Structure
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```
+src/
+└── com/example/factory
+    ├── Document.java
+    ├── WordDocument.java
+    ├── PdfDocument.java
+    ├── ExcelDocument.java
+    ├── DocumentFactory.java
+    ├── WordDocumentFactory.java
+    ├── PdfDocumentFactory.java
+    ├── ExcelDocumentFactory.java
+    └── Main.java
+```
 
-## Dependency Management
+## Output
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![Output](factorymethodoutput.png)
