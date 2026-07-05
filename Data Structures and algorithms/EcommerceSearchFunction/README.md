@@ -21,4 +21,4 @@ Binary Search is more efficient for large sorted datasets, whereas Linear Search
 
 Output
 
-![Output](output.png)
+![Output](ecommerseoutput.png)
