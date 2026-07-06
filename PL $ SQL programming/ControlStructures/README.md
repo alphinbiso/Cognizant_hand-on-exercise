@@ -43,7 +43,9 @@ Print reminder messages for customers whose loans are due within the next 30 day
 ---
 
 ## Output
-
+### Scenario 1
 ![Output](scenario1.png)
+### Scenario 2
 ![Output](scenario2.png)
+### Scenario 3
 ![Output](scenario3.png)
