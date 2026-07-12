@@ -1,23 +1,22 @@
 package com.cognizant.junit;
 
-import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
 import org.junit.Test;
+import org.mockito.Mockito;
 
 public class MyServiceTest {
 
     @Test
-    public void testExternalApi() {
+    public void testVerifyInteraction() {
 
-        ExternalApi mockApi = mock(ExternalApi.class);
-
-        when(mockApi.getData()).thenReturn("Mock Data");
+        ExternalApi mockApi = Mockito.mock(ExternalApi.class);
 
         MyService service = new MyService(mockApi);
 
-        String result = service.fetchData();
+        service.fetchData();
 
-        assertEquals("Mock Data", result);
+        verify(mockApi).getData();
+
     }
 }
