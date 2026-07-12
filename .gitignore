@@ -1,3 +1,6 @@
+# Maven build folder
+target/
+
 # Java compiled files
 **/bin/
 **/*.class
